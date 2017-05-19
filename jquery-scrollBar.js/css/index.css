@@ -1,0 +1,56 @@
+.scroll-y {
+}
+
+.scroll-x {}
+
+.scroll-xy {}
+
+.scroll-y,
+.scroll-x,
+.scroll-xy {
+    position: relative;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    /*Firefox3.5+*/
+    -webkit-box-sizing: border-box;
+    /*Safari3.2+*/
+    -o-box-sizing: border-box;
+    /*Opera9.6*/
+    -ms-box-sizing: border-box;
+    /*IE8*/
+    box-sizing: border-box;
+}
+
+.scroll-slotY,
+.scroll-barY {
+    position: absolute;
+    width: 8px;
+    height: 100%;
+}
+
+.scroll-slotY,
+.scroll-barY {
+    top: 0;
+    right: 0;
+    border-radius: 4px;
+/*    display: none;*/
+}
+
+.scroll-barY {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.grey .scroll-slotY {
+    background-color: #efefef;
+}
+
+.grey .scroll-barY {
+    background-color: #a3a3a3
+}
+
+.scroll-content{
+    right: 8px;
+    position: absolute;
+    word-wrap:break-word
+}
