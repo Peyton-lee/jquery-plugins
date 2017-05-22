@@ -1,7 +1,7 @@
 # jquery-plugins
 > 自己封装的jquery插件库，记得先引入jquery,css文件
 
-## Build Setup
+## Initialization
 
 ``` bash
 # Introducing related files
