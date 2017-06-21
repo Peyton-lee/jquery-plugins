@@ -1,0 +1,7 @@
+.IMG_pic {
+	float: left;
+	display: none;
+}
+.IMG_pic img {
+	height: auto;
+}
